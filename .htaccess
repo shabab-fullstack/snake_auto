@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Prevent access to hidden files (.env, .git, etc.)
+    RewriteRule ^\.(.*)$ - [F,L]
+
+    # Block access to sensitive system folders
+    RewriteRule ^(app|bootstrap|config|database|resources|routes|storage|tests|vendor)(/.*)?$ - [F,L]
+
+    # Redirect everything to the public folder seamlessly
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L,QSA]
+</IfModule>
+
+# Disable Directory Browsing
+Options -Indexes
+
+# Block sensitive config and lock files
+<FilesMatch "^(\.env|\.git|composer\.(json|lock)|package\.(json|lock)|artisan)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

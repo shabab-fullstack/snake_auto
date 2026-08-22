@@ -16,9 +16,12 @@
 
     <title>CARROM POOL AUTO PLAY — {{ $pageTitle }} | Snake Engine</title>
     <meta name="description" content="Complete guide on {{ $pageTitle }}. Download Carrom Pool Auto Play APK, anti-ban configuration, laser aim line predictor tutorial and purchase instant VIP keys.">
-    <meta name="keywords" content="carrom pool auto play, carrom pool auto play apk, carrom pool auto play download, snake carrom pool auto play, snake engine carrom pool, snake auto play, carrom pool auto aim, 8 ball pool aim assistant, snake aim tool, snake apk mod, how to use snake engine, snake engine {{ $gameKey }}, anti ban aim predictor">
+    <meta name="keywords" content="carrom pool auto play, kos auto, kos auto play, carrom pool auto play apk, carrom pool auto play download, snake carrom pool auto play, snake engine carrom pool, snake auto play, carrom pool auto aim, 8 ball pool aim assistant, snake aim tool, snake apk mod, how to use snake engine, snake engine {{ $gameKey }}, anti ban aim predictor, shabab gaming">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="author" content="SHABAB GAMING">
+    @if(env('GOOGLE_SITE_VERIFICATION'))
+    <meta name="google-site-verification" content="{{ env('GOOGLE_SITE_VERIFICATION') }}">
+    @endif
     <link rel="canonical" href="{{ url('/details/' . $gameKey) }}">
 
     <!-- Open Graph -->

@@ -6,9 +6,12 @@
     
     <title>CARROM POOL AUTO PLAY | Snake Engine Official Aim Tool &amp; Key Store</title>
     <meta name="description" content="Official Snake Engine Carrom Pool Auto Play Store. Download #1 Carrom Pool Auto Play aim assistant, line predictor mod APK & instant VIP keys. 100% Anti-Ban guaranteed.">
-    <meta name="keywords" content="carrom pool auto play, carrom pool auto play apk, carrom pool auto play mod, carrom pool auto play download, snake carrom pool auto play, snake engine carrom pool auto play, carrom pool auto aim, carrom pool aim assistant, snake engine, snake auto play, auto play snake, 8 ball pool snake engine, soccer stars snake tool, shabab gaming">
+    <meta name="keywords" content="carrom pool auto play, kos auto, kos auto play, carrom pool auto play apk, carrom pool auto play mod, carrom pool auto play download, snake carrom pool auto play, snake engine carrom pool auto play, carrom pool auto aim, carrom pool aim assistant, snake engine, snake auto play, auto play snake, 8 ball pool snake engine, soccer stars snake tool, shabab gaming">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="author" content="SHABAB GAMING">
+    @if(env('GOOGLE_SITE_VERIFICATION'))
+    <meta name="google-site-verification" content="{{ env('GOOGLE_SITE_VERIFICATION') }}">
+    @endif
     <meta name="theme-color" content="#05080c">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">

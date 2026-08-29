@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <title>CARROM POOL AUTO PLAY | Snake Engine Official Aim Tool &amp; Key Store</title>
-    <meta name="description" content="Official Snake Engine Carrom Pool Auto Play Store. Download #1 Carrom Pool Auto Play aim assistant, line predictor mod APK & instant VIP keys. 100% Anti-Ban guaranteed.">
-    <meta name="keywords" content="carrom pool auto play, kos auto, kos auto play, carrom pool auto play apk, carrom pool auto play mod, carrom pool auto play download, snake carrom pool auto play, snake engine carrom pool auto play, carrom pool auto aim, carrom pool aim assistant, snake engine, snake auto play, auto play snake, 8 ball pool snake engine, soccer stars snake tool, shabab gaming">
+    <title>Carrom Pool Auto Play | #1 Best Auto Play Carrom Pool &amp; Free Mod APK Guide</title>
+    <meta name="description" content="Download #1 Carrom Pool Auto Play &amp; Auto Play Carrom Pool tool. Get Carrom Pool Auto Play Mod APK, Carrom Pool Free Auto Play tips, 8 Ball Pool multi-line aim tool &amp; VIP keys with 100% Anti-Ban security.">
+    <meta name="keywords" content="carrom pool auto play, auto play carrom pool, carrom pool free auto play, carrom pool auto play free, auto play carrom pool mod apk, carrom pool auto play mod apk, carrom pool auto play download, auto play carrom pool free download, carrom pool auto play apk, carrom pool aim tool, carrom pool auto aim, carrom pool aim assist, carrom auto play, auto play carrom pool hack, carrom pool mod apk auto play, carrom pool bitaim, carrom pool aim carrom, snake engine carrom pool, shabab gaming">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="author" content="SHABAB GAMING">
     @if(env('GOOGLE_SITE_VERIFICATION'))
@@ -19,18 +19,18 @@
     
     <!-- Open Graph / Facebook / WhatsApp Preview -->
     <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Carrom Pool Auto Play - Snake Engine Official">
-    <meta property="og:title" content="CARROM POOL AUTO PLAY | Snake Engine Official Aim Tool &amp; VIP Store">
-    <meta property="og:description" content="Dominate matches with 100% Anti-Ban Carrom Pool Auto Play, 8 Ball Pool &amp; Soccer Stars Snake Engine Tool. Instant 24/7 Activation.">
+    <meta property="og:site_name" content="Carrom Pool Auto Play - Official Store">
+    <meta property="og:title" content="CARROM POOL AUTO PLAY | #1 Auto Play Carrom Pool Mod APK &amp; VIP Aim Tool">
+    <meta property="og:description" content="Best Carrom Pool Auto Play, Auto Play Carrom Pool Mod APK &amp; Free Auto Play guide. 100% Anti-Ban, precision aim assistant &amp; instant VIP keys.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url('/') }}">
     <meta property="og:image" content="{{ asset('snake-engine-banner.png') }}">
-    <meta property="og:image:alt" content="Snake Engine Official Logo">
+    <meta property="og:image:alt" content="Carrom Pool Auto Play Official Banner">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SNAKE ENGINE AUTO PLAY | #1 Official Aim Assistant">
-    <meta name="twitter:description" content="Next-Gen Game Automation &amp; Real-Time Trajectory Tool for Carrom Pool &amp; 8 Ball Pool.">
+    <meta name="twitter:title" content="CARROM POOL AUTO PLAY | #1 Auto Play Carrom Pool Tool">
+    <meta name="twitter:description" content="Get the best Carrom Pool Auto Play &amp; Auto Play Carrom Pool Mod APK. Instant VIP keys &amp; precision aim tools.">
     <meta name="twitter:image" content="{{ asset('snake-engine-banner.png') }}">
 
     <link rel="icon" type="image/png" href="{{ asset('snake-engine-logo.png') }}">
@@ -45,8 +45,8 @@
           "@@type": "WebSite",
           "@@id": "{{ url('/') }}#website",
           "url": "{{ url('/') }}",
-          "name": "Snake Engine Official Store",
-          "description": "Official portal for Snake Engine Auto Play and Aim Prediction Tools for Carrom Pool, 8 Ball Pool and Soccer Stars.",
+          "name": "Carrom Pool Auto Play Official Store",
+          "description": "Official portal for Carrom Pool Auto Play, Auto Play Carrom Pool Mod APK, and Precision Aim Tools.",
           "publisher": {
             "@@type": "Organization",
             "name": "SHABAB GAMING",
@@ -93,7 +93,8 @@
         },
         {
           "@@type": "SoftwareApplication",
-          "name": "Snake Engine Auto Play",
+          "name": "Carrom Pool Auto Play",
+          "alternateName": "Auto Play Carrom Pool Mod APK",
           "operatingSystem": "Android, Windows PC (LDPlayer/BlueStacks)",
           "applicationCategory": "GameApplication",
           "aggregateRating": {
@@ -106,21 +107,21 @@
           "offers": [
             {
               "@@type": "Offer",
-              "name": "Snake Carrom Pool 3 Days VIP Key",
-              "price": "178",
+              "name": "Carrom Pool Auto Play 3 Days VIP Key",
+              "price": "200",
               "priceCurrency": "INR",
               "availability": "https://schema.org/InStock"
             },
             {
               "@@type": "Offer",
-              "name": "Snake 8 Ball Pool 3 Days VIP Key",
-              "price": "320",
+              "name": "8 Ball Pool Auto Play 3 Days VIP Key",
+              "price": "250",
               "priceCurrency": "INR",
               "availability": "https://schema.org/InStock"
             },
             {
               "@@type": "Offer",
-              "name": "Snake Soccer Stars 3 Days VIP Key",
+              "name": "Soccer Stars Auto Play 3 Days VIP Key",
               "price": "155",
               "priceCurrency": "INR",
               "availability": "https://schema.org/InStock"
@@ -129,21 +130,21 @@
         },
         {
           "@@type": "HowTo",
-          "name": "How to Download, Setup and Use Snake Engine Carrom Pool Auto Play",
-          "description": "Step-by-step tutorial on installing Snake Engine APK, configuring floating window overlay and activating real-time multi-line aim assistant in Carrom Pool.",
+          "name": "How to Download, Setup and Use Carrom Pool Auto Play & Auto Play Carrom Pool Mod APK",
+          "description": "Step-by-step tutorial on installing Carrom Pool Auto Play APK, configuring floating window overlay and activating real-time precision aim assistant in Carrom Pool.",
           "image": "{{ asset('snake-engine-banner.png') }}",
           "totalTime": "PT3M",
           "step": [
             {
               "@@type": "HowToStep",
-              "name": "Download Supported APK & Snake Hack",
-              "text": "Download the verified Carrom Pool game and Snake Engine Hack tool APK directly from our official store download links.",
+              "name": "Download Supported APK & Carrom Pool Auto Play Tool",
+              "text": "Download the verified Carrom Pool game and Auto Play tool APK directly from our official store download links.",
               "url": "{{ url('/') }}#faq",
               "image": "{{ asset('snake-engine-logo.png') }}"
             },
             {
               "@@type": "HowToStep",
-              "name": "Purchase Official VIP License Key",
+              "name": "Purchase Official Carrom Pool Auto Play VIP Key",
               "text": "Select your plan (3 Days, 10 Days, 30 Days or 90 Days) and receive an instant activation key via WhatsApp or Bot.",
               "url": "{{ url('/') }}#store",
               "image": "{{ asset('snake-engine-carrom-pool.png') }}"
@@ -151,7 +152,7 @@
             {
               "@@type": "HowToStep",
               "name": "Activate Key & Grant Overlay Permission",
-              "text": "Open Snake Engine, paste your VIP activation key, and allow Floating Window overlay permission on your Android device or PC emulator.",
+              "text": "Open the Auto Play app, paste your VIP activation key, and allow Floating Window overlay permission on your Android device or PC emulator.",
               "url": "{{ url('/details/carrom') }}",
               "image": "{{ asset('snake-engine-carrom-pool.png') }}"
             },
@@ -165,57 +166,27 @@
           ]
         },
         {
-          "@@type": "VideoObject",
-          "name": "Snake Engine Carrom Pool Auto Play Live Gameplay Demo",
-          "description": "Watch real-time live match gameplay with Snake Engine Auto Play precision aim lines and cushion rebound trick shots in Carrom Pool.",
-          "thumbnailUrl": "{{ asset('snake-engine-carrom-pool.png') }}",
-          "uploadDate": "2026-08-21T00:00:00+05:30",
-          "duration": "PT45S",
-          "contentUrl": "{{ asset('carrom.mp4') }}",
-          "embedUrl": "{{ url('/') }}"
-        },
-        {
-          "@@type": "VideoObject",
-          "name": "Snake Engine 8 Ball Pool Multi-Line Trajectory Live Gameplay Demo",
-          "description": "Live 8 Ball Pool gameplay showcase demonstrating 3-cushion bank shots and cue ball trajectory prediction.",
-          "thumbnailUrl": "{{ asset('snake-engine-8-ball-pool.png') }}",
-          "uploadDate": "2026-08-21T00:00:00+05:30",
-          "duration": "PT45S",
-          "contentUrl": "{{ asset('8bp.mp4') }}",
-          "embedUrl": "{{ url('/') }}"
-        },
-        {
-          "@@type": "VideoObject",
-          "name": "Snake Engine Soccer Stars Aim Predictor Live Gameplay Demo",
-          "description": "Live Soccer Stars match gameplay showing laser deflection trajectory and goal vector alignment.",
-          "thumbnailUrl": "{{ asset('snake-engine-soccer-stars.png') }}",
-          "uploadDate": "2026-08-21T00:00:00+05:30",
-          "duration": "PT45S",
-          "contentUrl": "{{ asset('soccer.mp4') }}",
-          "embedUrl": "{{ url('/') }}"
-        },
-        {
           "@@type": "FAQPage",
           "mainEntity": [
             {
               "@@type": "Question",
-              "name": "What is Snake Engine Auto Play?",
+              "name": "What is Carrom Pool Auto Play and how does Auto Play Carrom Pool work?",
               "acceptedAnswer": {
                 "@@type": "Answer",
-                "text": "Snake Engine is a real-time trajectory mathematical calculation tool providing 100% precision auto aim and cushion rebound assistance for Carrom Pool, 8 Ball Pool, and Soccer Stars."
+                "text": "Carrom Pool Auto Play is a real-time trajectory mathematical calculation tool providing 100% precision auto aim and cushion rebound assistance for Carrom Pool, 8 Ball Pool, and Soccer Stars."
               }
             },
             {
               "@@type": "Question",
-              "name": "Is Snake Engine safe to use without account ban?",
+              "name": "Is Auto Play Carrom Pool safe to use without account ban?",
               "acceptedAnswer": {
                 "@@type": "Answer",
-                "text": "Yes, Snake Engine utilizes memory read overlay technology without modifying game files, guaranteeing 100% anti-ban security for over 25,000 active players."
+                "text": "Yes, Carrom Pool Auto Play utilizes memory read overlay technology without modifying game files, guaranteeing 100% anti-ban security for over 25,000 active players."
               }
             },
             {
               "@@type": "Question",
-              "name": "How fast is VIP key delivery after purchase?",
+              "name": "How fast is Carrom Pool Auto Play VIP key delivery after purchase?",
               "acceptedAnswer": {
                 "@@type": "Answer",
                 "text": "Keys are instantly delivered 24/7 via WhatsApp or Telegram Bot within 2 minutes of payment confirmation."
@@ -285,96 +256,7 @@
             z-index: 0;
         }
 
-        /* LUXURY CYBER HEADER */
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: rgba(6, 9, 13, 0.92);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(0, 255, 102, 0.15);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 18px 45px;
-            min-height: 80px;
-            box-sizing: border-box;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 102, 0.05);
-            transition: all 0.3s ease;
-        }
 
-        .header-logo {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            text-decoration: none;
-        }
-        .header-logo img {
-            height: 48px;
-            filter: drop-shadow(0 0 12px rgba(0, 255, 102, 0.5));
-            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .header-logo:hover img {
-            transform: scale(1.08) rotate(3deg);
-        }
-        .logo-text-group {
-            display: flex;
-            flex-direction: column;
-        }
-        .logo-text {
-            font-family: var(--font-display);
-            font-weight: 900;
-            font-size: 22px;
-            letter-spacing: 1px;
-            color: #fff;
-            line-height: 1.1;
-            display: block;
-        }
-        .logo-text span { 
-            color: var(--primary); 
-            text-shadow: 0 0 15px rgba(0, 255, 102, 0.6);
-        }
-        .logo-subtag {
-            font-size: 9.5px;
-            font-weight: 700;
-            color: var(--text-muted);
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-        }
-
-        .header-right {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        .live-status-pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background: rgba(0, 255, 102, 0.08);
-            border: 1px solid rgba(0, 255, 102, 0.25);
-            color: var(--primary);
-            padding: 8px 16px;
-            border-radius: 100px;
-            font-size: 11.5px;
-            font-weight: 800;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
-        .live-status-pill .dot {
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background: var(--primary);
-            box-shadow: 0 0 8px var(--primary);
-            animation: pulseGlow 1.5s infinite;
-        }
-        @keyframes pulseGlow {
-            0% { transform: scale(0.9); opacity: 0.7; }
-            50% { transform: scale(1.3); opacity: 1; }
-            100% { transform: scale(0.9); opacity: 0.7; }
-        }
 
 
 
@@ -410,19 +292,21 @@
             letter-spacing: 1.5px;
             text-transform: uppercase;
             margin-bottom: 20px;
-            box-shadow: 0 0 15px rgba(0, 255, 102, 0.1);
+            box-shadow: none !important;
         }
         .pulse-dot {
             width: 7px;
             height: 7px;
-            background: var(--primary);
             border-radius: 50%;
-            box-shadow: 0 0 8px var(--primary);
-            animation: pulse-glow 1.8s infinite;
+            box-shadow: none !important;
+            animation: dotColorCycle 5s linear infinite;
         }
-        @keyframes pulse-glow {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.4); opacity: 0.5; }
+        @keyframes dotColorCycle {
+            0%, 100% { background-color: #00ff66; }
+            20% { background-color: #00f0ff; }
+            40% { background-color: #a855f7; }
+            60% { background-color: #ffd600; }
+            80% { background-color: #ff3344; }
         }
 
         .hero-banner .hero-img-wrap {
@@ -433,27 +317,14 @@
             margin: 0 auto 20px;
             width: 160px;
         }
-        .hero-banner .hero-img-wrap::before {
-            content: '';
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            width: 140%; height: 140%;
-            background: radial-gradient(circle, rgba(0, 255, 102, 0.25) 0%, transparent 70%);
-            z-index: -1;
-            filter: blur(20px);
-        }
         .hero-banner img {
             width: 160px;
             height: auto;
             display: block;
             margin: 0 auto;
-            filter: drop-shadow(0 10px 25px rgba(0, 255, 102, 0.35));
-            animation: float 4s ease-in-out infinite;
-        }
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-8px); }
+            filter: none !important;
+            animation: none !important;
+            transform: none !important;
         }
 
         .hero-banner h1 {
@@ -1119,37 +990,7 @@
             box-shadow: none !important;
         }
         
-        /* CLEAN & ELEGANT SHABAB GAMING DEVELOPER CARD */
-        .dev-card {
-            max-width: 620px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.025);
-            border: 1px solid rgba(0, 255, 102, 0.2);
-            padding: 24px 20px;
-            border-radius: 16px;
-            text-align: center;
-        }
-        .dev-card h3 {
-            color: #ffffff;
-            font-family: var(--font-body);
-            font-weight: 800;
-            font-size: 15px;
-            letter-spacing: 0.5px;
-            margin-bottom: 12px;
-            text-transform: uppercase;
-        }
-        .dev-card h3 span {
-            color: var(--primary);
-        }
-        .dev-card p {
-            color: #8b949e;
-            font-size: 13px;
-            line-height: 1.6;
-            margin: 0 auto;
-        }
-        .dev-card strong {
-            color: #f0f6fc;
-        }
+
         .footer-bottom-text {
             color: #6e7681;
             font-size: 11.5px;
@@ -1435,20 +1276,6 @@
         }
 
         @media (max-width: 768px) { 
-            header { 
-                padding: 10px 14px; 
-                min-height: 60px;
-            }
-            .header-logo img { height: 34px; }
-            .logo-text { font-size: 16px; }
-            .logo-subtag { font-size: 8px; }
-            .live-status-pill { display: none; }
-            .shop-link {
-                padding: 8px 14px;
-                font-size: 11.5px;
-                gap: 4px;
-                white-space: nowrap;
-            } 
             .grid { 
                 grid-template-columns: 1fr 1fr; 
                 gap: 12px; 
@@ -1525,13 +1352,13 @@
     <!-- HERO SECTION -->
     <section class="hero-banner">
         <div class="hero-badge">
-            <span class="pulse-dot"></span> Official Store &bull; Fast Key Delivery
+            <span class="pulse-dot"></span> #1 CARROM POOL AUTO PLAY STORE &bull; FAST KEY DELIVERY
         </div>
         <div class="hero-img-wrap">
-            <img src="{{ asset('snake-engine-logo.png') }}" alt="Snake Engine Auto Play Official Logo" width="130" height="130" fetchpriority="high">
+            <img src="{{ asset('snake-engine-logo.png') }}" alt="Carrom Pool Auto Play Official Logo" width="130" height="130" fetchpriority="high">
         </div>
-        <h1>SNAKE <span>ENGINE</span></h1>
-        <p class="hero-sub">PREMIUM GAME AUTOMATION &amp; PRECISION TOOLS</p>
+        <h1>CARROM POOL <span>AUTO PLAY</span></h1>
+        <p class="hero-sub">#1 AUTO PLAY CARROM POOL &bull; FREE MOD APK GUIDE &bull; PRECISION AIM TOOL</p>
     </section>
 
     <!-- STORE ANCHOR TARGET -->
@@ -1539,11 +1366,8 @@
 
     <!-- CARROM POOL AUTO PLAY SECTION -->
     <div class="section-header">
-        <span class="section-tag">#1 CARROM POOL AUTO PLAY &amp; AIM TOOL</span>
-        <div class="section-title-wrap">
-            <h2>SNAKE CARROM POOL AUTO PLAY</h2>
-            <button class="seo-info-btn" title="View Carrom Pool Auto Play Guide & SEO Info" onclick="openSeoModal('carrom')">ℹ️</button>
-        </div>
+        <span class="section-tag">#1 AUTO PLAY CARROM POOL &bull; MOD APK &bull; FREE AIM GUIDE</span>
+        <h2>CARROM POOL AUTO PLAY</h2>
     </div>
     <div class="grid">
         <div class="card">
@@ -1553,11 +1377,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">3 Days</div>
-                <div class="price-tag" id="cp-3"><span class="curr">₹</span>178</div>
+                <div class="price-tag" id="cp-3"><span class="curr">₹</span>200</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(3%20Days%20plan)%20for%20%E2%82%B9178.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(3%20Days%20plan)%20for%20%E2%82%B9178.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%203%20days%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1567,11 +1391,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">10 Days</div>
-                <div class="price-tag" id="cp-10"><span class="curr">₹</span>447</div>
+                <div class="price-tag" id="cp-10"><span class="curr">₹</span>440</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(10%20Days%20plan)%20for%20%E2%82%B9447.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(10%20Days%20plan)%20for%20%E2%82%B9447.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2010%20days%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1581,11 +1405,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">30 Days</div>
-                <div class="price-tag" id="cp-30"><span class="curr">₹</span>950</div>
+                <div class="price-tag" id="cp-30"><span class="curr">₹</span>840</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(30%20Days%20plan)%20for%20%E2%82%B9950.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(30%20Days%20plan)%20for%20%E2%82%B9950.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2030%20days%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1595,11 +1419,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">90 Days</div>
-                <div class="price-tag" id="cp-90"><span class="curr">₹</span>2600</div>
+                <div class="price-tag" id="cp-90"><span class="curr">₹</span>2200</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(90%20Days%20plan)%20for%20%E2%82%B92600.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Carrom%20Pool%20(90%20Days%20plan)%20for%20%E2%82%B92600.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2090%20days%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
     </div>
@@ -1607,10 +1431,7 @@
     <!-- 8 BALL POOL SECTION -->
     <div class="section-header">
         <span class="section-tag">MULTI-LINE SYSTEM</span>
-        <div class="section-title-wrap">
-            <h2>SNAKE 8 BALL POOL</h2>
-            <button class="seo-info-btn" title="View 8 Ball Pool Guide & SEO Info" onclick="openSeoModal('8bp')">ℹ️</button>
-        </div>
+        <h2>8 BALL POOL AUTO PLAY &amp; AIM TOOL</h2>
     </div>
     <div class="grid">
         <div class="card">
@@ -1620,11 +1441,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">3 Days</div>
-                <div class="price-tag" id="eb-3"><span class="curr">₹</span>320</div>
+                <div class="price-tag" id="eb-3"><span class="curr">₹</span>250</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(3%20Days%20plan)%20for%20%E2%82%B9320.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(3%20Days%20plan)%20for%20%E2%82%B9320.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%203%20days%208bp%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1634,11 +1455,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">10 Days</div>
-                <div class="price-tag" id="eb-10"><span class="curr">₹</span>777</div>
+                <div class="price-tag" id="eb-10"><span class="curr">₹</span>540</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(10%20Days%20plan)%20for%20%E2%82%B9777.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(10%20Days%20plan)%20for%20%E2%82%B9777.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2010%20days%208bp%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1648,11 +1469,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">30 Days</div>
-                <div class="price-tag" id="eb-30"><span class="curr">₹</span>1551</div>
+                <div class="price-tag" id="eb-30"><span class="curr">₹</span>980</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(30%20Days%20plan)%20for%20%E2%82%B91551.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(30%20Days%20plan)%20for%20%E2%82%B91551.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2030%20days%208bp%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1662,11 +1483,11 @@
                     <div class="card-img-info-hint">ℹ️ Details</div>
                 </a>
                 <div class="card-plan-title">90 Days</div>
-                <div class="price-tag" id="eb-90"><span class="curr">₹</span>4200</div>
+                <div class="price-tag" id="eb-90"><span class="curr">₹</span>2500</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(90%20Days%20plan)%20for%20%E2%82%B94200.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%208%20Ball%20Pool%20(90%20Days%20plan)%20for%20%E2%82%B94200.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2090%20days%208bp%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
     </div>
@@ -1674,10 +1495,7 @@
     <!-- SOCCER STAR SECTION -->
     <div class="section-header">
         <span class="section-tag">ACCURACY PREDICTOR</span>
-        <div class="section-title-wrap">
-            <h2>SNAKE SOCCER STARS</h2>
-            <button class="seo-info-btn" title="View Soccer Stars Guide & SEO Info" onclick="openSeoModal('soccer')">ℹ️</button>
-        </div>
+        <h2>SOCCER STARS AUTO PLAY &amp; AIM TOOL</h2>
     </div>
     <div class="grid">
         <div class="card">
@@ -1690,8 +1508,8 @@
                 <div class="price-tag" id="ff-3"><span class="curr">₹</span>155</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Soccer%20Star%20(3%20Days%20plan)%20for%20%E2%82%B9155.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Soccer%20Star%20(3%20Days%20plan)%20for%20%E2%82%B9155.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%203%20days%20soccer%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1704,8 +1522,8 @@
                 <div class="price-tag" id="ff-10"><span class="curr">₹</span>350</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Soccer%20Star%20(10%20Days%20plan)%20for%20%E2%82%B9350.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Soccer%20Star%20(10%20Days%20plan)%20for%20%E2%82%B9350.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2010%20days%20soccer%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
         <div class="card">
@@ -1718,115 +1536,70 @@
                 <div class="price-tag" id="ff-30"><span class="curr">₹</span>773</div>
             </div>
             <div class="card-actions">
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Soccer%20Star%20(30%20Days%20plan)%20for%20%E2%82%B9773.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-wa buy-btn">Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20want%20to%20buy%20Snake%20Engine%20Soccer%20Star%20(30%20Days%20plan)%20for%20%E2%82%B9773.%20Please%20share%20activation%20key%20and%20payment%20details." class="btn-bot">🤖 Buy Via Bot</a>
+                <a href="https://wa.me/917667363785?text=Hi%20bro%2C%20I%20want%2030%20days%20soccer%20auto" target="_blank" rel="noopener noreferrer" class="btn-wa buy-btn">Buy Now</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="btn-bot">✈️ Buy Via Bot</a>
             </div>
         </div>
     </div>
 
-    <!-- VIDEO SHOWCASE -->
-    <div class="section-header">
-        <span class="section-tag">LIVE DEMO</span>
-        <h2>GAMEPLAY SHOWCASE</h2>
-    </div>
-    <div class="video-showcase-grid">
-        <div class="video-box">
-            <div class="video-heading">
-                <span>CARROM POOL DEMO</span>
-                <img src="{{ asset('snake-engine-carrom-pool.png') }}" alt="Snake Engine Carrom Pool Demo" width="30" height="30" loading="lazy">
-            </div>
-            <div class="video-container carrom-container">
-                <video id="vid-carrom" autoplay loop muted playsinline preload="auto">
-                    <source src="{{ asset('carrom.mp4') }}" type="video/mp4">
-                </video>
-                <button class="audio-toggle-btn" onclick="toggleAudio('vid-carrom', this)">Unmute</button>
-            </div>
-        </div>
 
-        <div class="video-box">
-            <div class="video-heading">
-                <span>8 BALL POOL DEMO</span>
-                <img src="{{ asset('snake-engine-8-ball-pool.png') }}" alt="Snake Engine 8 Ball Pool Demo" width="30" height="30" loading="lazy">
-            </div>
-            <div class="video-container">
-                <video id="vid-8bp" autoplay loop muted playsinline preload="auto">
-                    <source src="{{ asset('8bp.mp4') }}" type="video/mp4">
-                </video>
-                <button class="audio-toggle-btn" onclick="toggleAudio('vid-8bp', this)">Unmute</button>
-            </div>
-        </div>
 
-        <div class="video-box">
-            <div class="video-heading">
-                <span>SOCCER STARS DEMO</span>
-                <img src="{{ asset('snake-engine-soccer-stars.png') }}" alt="Snake Engine Soccer Stars Demo" width="30" height="30" loading="lazy">
-            </div>
-            <div class="video-container">
-                <video id="vid-soccer" autoplay loop muted playsinline preload="auto">
-                    <source src="{{ asset('soccer.mp4') }}" type="video/mp4">
-                </video>
-                <button class="audio-toggle-btn" onclick="toggleAudio('vid-soccer', this)">Unmute</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- RICH SEO ACCORDION (Option 6: Native Bulletproof Details/Summary) -->
+    <!-- RICH SEO ACCORDION (Native Bulletproof Details/Summary) -->
     <section class="seo-section" id="faq-section">
         <div class="section-header" style="padding-top:0;">
-            <span class="section-tag">KNOWLEDGE BASE &amp; SEO GUIDE</span>
-            <h2>EVERYTHING ABOUT SNAKE ENGINE</h2>
+            <span class="section-tag">KNOWLEDGE BASE &bull; OFFICIAL GUIDES</span>
+            <h2>EVERYTHING ABOUT CARROM POOL AUTO PLAY</h2>
         </div>
 
         <details class="d6-item">
             <summary class="d6-header">
-                <span>What is Snake Engine Auto Play &amp; Aim Tool?</span>
+                <span>What is Carrom Pool Auto Play &amp; How Does Auto Play Carrom Pool Work?</span>
                 <span class="d6-icon">▼</span>
             </summary>
             <div class="d6-body">
-                <p><strong>Snake Engine</strong> is the world's most advanced real-time physics prediction and game automation system. Specifically developed for mobile games like <strong>Carrom Pool, 8 Ball Pool, and Soccer Stars</strong>, it calculates flawless bank shots, complex cushion rebounds, and multi-line projections in real time.</p>
+                <p><strong>Carrom Pool Auto Play</strong> is the world's most advanced real-time trajectory prediction and auto aim tool. Designed specifically for competitive players, it calculates cushion rebounds, coin collisions, and pocket angles instantly with 100% accuracy.</p>
                 <ul>
-                    <li><strong>⚡ Real-Time Geometric Raycasting:</strong> Projects exact trajectory and collision angles instantly.</li>
-                    <li><strong>🛡️ 100% Anti-Detection Architecture:</strong> Stream-hide protection &amp; memory-level safety keep accounts safe.</li>
-                    <li><strong>📱 No Root Required:</strong> Native seamless performance on all Android devices and PC Emulators.</li>
+                    <li><strong>⚡ Real-Time Geometric Raycasting:</strong> Projects accurate trajectory and cushion bounce lines in real time.</li>
+                    <li><strong>🛡️ 100% Anti-Ban Protection:</strong> Kernel overlay architecture keeps your game account 100% safe.</li>
+                    <li><strong>📱 Seamless Compatibility:</strong> Works natively on all Android versions and PC Emulators without root.</li>
                 </ul>
-                <a href="{{ url('/details/carrom') }}" class="faq-link-btn">📖 View Full Carrom Pool Guide →</a>
+                <a href="{{ url('/details/carrom') }}" class="faq-link-btn">📖 View Full Carrom Pool Auto Play Guide →</a>
             </div>
         </details>
 
         <details class="d6-item">
             <summary class="d6-header">
-                <span>How to Buy &amp; Activate Snake Engine Key Instantly?</span>
+                <span>Can I Get Carrom Pool Free Auto Play or Carrom Pool Auto Play Mod APK?</span>
                 <span class="d6-icon">▼</span>
             </summary>
             <div class="d6-body">
-                <p>Purchasing and activating your license key takes less than 2 minutes:</p>
+                <p>While generic <strong>Carrom Pool Auto Play Mod APKs</strong> downloaded from random websites often carry security risks and cause account bans, our official platform provides verified tool APKs and authentic VIP keys with instant 24/7 activation.</p>
                 <ul>
-                    <li><strong>Step 1:</strong> Select your desired game and duration plan (3 Days, 10 Days, 30 Days, or 90 Days).</li>
-                    <li><strong>Step 2:</strong> Click on <strong>"BUY NOW"</strong> for direct Telegram checkout or <strong>"🤖 BUY VIA BOT"</strong> for automated key delivery.</li>
-                    <li><strong>Step 3:</strong> Paste your VIP Key into Snake Engine and grant floating overlay permissions to start winning!</li>
+                    <li><strong>Step 1:</strong> Select your desired duration plan (3 Days, 10 Days, 30 Days, or 90 Days).</li>
+                    <li><strong>Step 2:</strong> Click on <strong>"BUY NOW"</strong> for instant WhatsApp support or <strong>"✈️ BUY VIA BOT"</strong> for automated Telegram key delivery.</li>
+                    <li><strong>Step 3:</strong> Enter your VIP Key and start dominating every match!</li>
                 </ul>
+                <a href="{{ url('/details/carrom') }}" class="faq-link-btn">🎯 Download Carrom Pool Auto Play Tools →</a>
+            </div>
+        </details>
+
+        <details class="d6-item">
+            <summary class="d6-header">
+                <span>Is Auto Play Carrom Pool Safe to Use (Anti-Ban Guarantee)?</span>
+                <span class="d6-icon">▼</span>
+            </summary>
+            <div class="d6-body">
+                <p>Yes, 100%. Our tool works via a screen overlay coordinate reader and does not manipulate original game memory files. It is tested and trusted by over <strong>25,000+ active players</strong> across India, Bangladesh, and worldwide for complete peace of mind.</p>
                 <a href="{{ url('/details/8bp') }}" class="faq-link-btn">🎱 View 8 Ball Pool Documentation →</a>
-            </div>
-        </details>
-
-        <details class="d6-item">
-            <summary class="d6-header">
-                <span>Is Snake Engine Safe to Use (Anti-Ban Guarantee)?</span>
-                <span class="d6-icon">▼</span>
-            </summary>
-            <div class="d6-body">
-                <p>Yes, absolutely. Snake Engine does not modify core game files on disk. It uses external screen coordinate mathematical mapping and memory overlay reading with built-in anti-detection algorithms.</p>
-                <p>Trusted by over <strong>25,000+ active competitive players</strong> across India, Bangladesh, and globally for smooth, ban-free domination in every match.</p>
-                <a href="{{ url('/details/soccer') }}" class="faq-link-btn">⚽ View Soccer Stars Documentation →</a>
             </div>
         </details>
     </section>
 
-    <!-- WHY CHOOSE SNAKE ENGINE (COMPARISON TABLE) -->
+    <!-- WHY CHOOSE (COMPARISON TABLE) -->
     <section class="comparison-section">
         <div class="section-header" style="padding-top:0;">
             <span class="section-tag">PREMIUM ADVANTAGE</span>
-            <h2>SNAKE ENGINE VS GENERIC MODS</h2>
+            <h2>CARROM POOL AUTO PLAY VS GENERIC MODS</h2>
         </div>
         <div class="comparison-table-wrap">
             <table class="comp-table">
@@ -1930,32 +1703,17 @@
 
     <!-- FOOTER -->
     <footer class="footer-branding">
-        <h2>DOWNLOAD SUPPORTED <span>SNAKE APK</span></h2>
+        <h2>DOWNLOAD <span>CARROM POOL AUTO PLAY</span> &amp; SUPPORTED APKS</h2>
         <div class="dl-group">
             <a href="https://share.google/RBsjeVNtTLrCUOAY0" class="btn-dl yellow-btn" target="_blank" rel="noopener noreferrer">
                 <span>📥</span> DOWNLOAD CARROM POOL
             </a>
             <a href="https://www.mediafire.com/file/t2889og754kvp1x/SE_2.2.2.apk/file" class="btn-dl purple-btn" target="_blank" rel="noopener noreferrer">
-                <span>⚡</span> DOWNLOAD SNAKE HACK
+                <span>⚡</span> DOWNLOAD AUTO PLAY TOOL
             </a>
         </div>
 
-        <div class="dev-card">
-            <h3>OFFICIAL DEVELOPER &bull; <span>SHABAB GAMING</span></h3>
-            <p><strong>SHABAB GAMING</strong> is a gold standard in the gaming automation community with over <strong>25,000+ trusted customers</strong>. Engineered for 100% security, high precision &amp; instant 24/7 activation.</p>
-            
-            <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-top:18px;">
-                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; background:rgba(0,136,204,0.15); border:1px solid rgba(0,136,204,0.5); color:#38bdf8; text-decoration:none; padding:10px 18px; border-radius:100px; font-weight:800; font-size:12.5px; text-transform:uppercase; transition:background 0.2s;">
-                    <span>✈️</span> Telegram Channel
-                </a>
-                <a href="https://youtube.com/@shabab.gaming1?si=nTCkkH1iu9NjNBjq" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; background:rgba(255,0,0,0.15); border:1px solid rgba(255,0,0,0.5); color:#ff5555; text-decoration:none; padding:10px 18px; border-radius:100px; font-weight:800; font-size:12.5px; text-transform:uppercase; transition:background 0.2s;">
-                    <span>▶</span> YouTube Official
-                </a>
-                <a href="https://whatsapp.com/channel/0029VbCa2RHBVJl3JOI24R38" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; background:rgba(37,211,102,0.15); border:1px solid rgba(37,211,102,0.5); color:#25d366; text-decoration:none; padding:10px 18px; border-radius:100px; font-weight:800; font-size:12.5px; text-transform:uppercase; transition:background 0.2s;">
-                    <span>🟢</span> WhatsApp Channel
-                </a>
-            </div>
-        </div>
+
 
         <div class="footer-bottom-text">
             <span class="brand-credit">SNAKE ENGINE &copy; 2026 &bull; WEBSITE DEVELOPED BY <strong>SHABAB GAMING</strong></span>
@@ -2064,6 +1822,10 @@
         function closeAllModals() {
             closeBuyPopup();
             closeSeoModal();
+            const nav = document.getElementById("mySidenav");
+            if (nav) nav.classList.remove("open");
+            const overlay = document.getElementById("overlay");
+            if (overlay) overlay.style.display = "none";
         }
 
         function toggleAudio(videoId, button) {

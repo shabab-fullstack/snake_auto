@@ -27,4 +27,16 @@
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+    <url>
+        <loc>{{ url('/details/about') }}</loc>
+        <lastmod>{{ date('Y-m-d') }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{{ url('/details/pc-setup') }}</loc>
+        <lastmod>{{ date('Y-m-d') }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

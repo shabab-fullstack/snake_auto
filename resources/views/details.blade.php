@@ -7,16 +7,18 @@
     @php
         $gameKey = $game ?? 'carrom';
         $titles = [
-            'carrom' => 'Snake Engine Carrom Pool Auto Play & Aim Assistant Guide',
-            '8bp' => 'Snake Engine 8 Ball Pool Multi-Line Trajectory Guide',
-            'soccer' => 'Snake Engine Soccer Stars Aim Predictor Guide'
+            'about' => 'About Carrom Pool Auto Play | Official Features & System Documentation',
+            'carrom' => 'Carrom Pool Auto Play & Auto Play Carrom Pool Mod APK Guide',
+            '8bp' => '8 Ball Pool Auto Play & Multi-Line Aim Assistant Guide',
+            'soccer' => 'Soccer Stars Auto Play & Accuracy Predictor Guide',
+            'pc-setup' => 'Carrom Pool Auto Play PC Setup | LDPlayer & BlueStacks Guide'
         ];
-        $pageTitle = $titles[$gameKey] ?? 'Snake Engine Game Automation Tool Guide';
+        $pageTitle = $titles[$gameKey] ?? 'Carrom Pool Auto Play Guide';
     @endphp
 
-    <title>CARROM POOL AUTO PLAY — {{ $pageTitle }} | Snake Engine</title>
-    <meta name="description" content="Complete guide on {{ $pageTitle }}. Download Carrom Pool Auto Play APK, anti-ban configuration, laser aim line predictor tutorial and purchase instant VIP keys.">
-    <meta name="keywords" content="carrom pool auto play, kos auto, kos auto play, carrom pool auto play apk, carrom pool auto play download, snake carrom pool auto play, snake engine carrom pool, snake auto play, carrom pool auto aim, 8 ball pool aim assistant, snake aim tool, snake apk mod, how to use snake engine, snake engine {{ $gameKey }}, anti ban aim predictor, shabab gaming">
+    <title>{{ $pageTitle }} | Carrom Pool Auto Play Official</title>
+    <meta name="description" content="Complete guide on {{ $pageTitle }}. Download Carrom Pool Auto Play APK, Auto Play Carrom Pool Mod APK, anti-ban setup and get instant VIP activation keys.">
+    <meta name="keywords" content="carrom pool auto play, auto play carrom pool, carrom pool free auto play, carrom pool auto play mod apk, auto play carrom pool mod apk, carrom pool auto play download, auto play carrom pool free download, carrom pool auto aim, carrom pool aim assist, carrom pool bitaim, carrom auto play, shabab gaming">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="author" content="SHABAB GAMING">
     @if(env('GOOGLE_SITE_VERIFICATION'))
@@ -26,9 +28,9 @@
 
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Snake Engine Official Guide">
-    <meta property="og:title" content="{{ $pageTitle }} — Snake Engine">
-    <meta property="og:description" content="Complete tutorial, features, PC emulator support and VIP keys for Snake Engine {{ $pageTitle }}.">
+    <meta property="og:site_name" content="Carrom Pool Auto Play Official Guide">
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="Complete tutorial, features, PC emulator support and VIP keys for {{ $pageTitle }}.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ url('/details/' . $gameKey) }}">
     <meta property="og:image" content="{{ asset('snake-engine-banner.png') }}">
@@ -36,7 +38,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $pageTitle }}">
-    <meta name="twitter:description" content="Official Snake Engine Guide &amp; Instant VIP Key Activation.">
+    <meta name="twitter:description" content="Official Carrom Pool Auto Play Guide &amp; Instant VIP Key Activation.">
     <meta name="twitter:image" content="{{ asset('snake-engine-banner.png') }}">
 
     <link rel="icon" type="image/png" href="{{ asset('snake-engine-logo.png') }}">
@@ -59,7 +61,7 @@
         "url": "{{ url('/') }}",
         "sameAs": [
           "https://t.me/shababgaming",
-          "https://youtube.com/@shabab.gaming1",
+          "https://youtube.com/@@shabab.gaming1",
           "https://whatsapp.com/channel/0029VbCa2RHBVJl3JOI24R38"
         ],
         "logo": {
@@ -119,112 +121,17 @@
             z-index: 0;
         }
 
-        header {
-            position: sticky;
+        #overlay {
+            position: fixed;
             top: 0;
-            z-index: 1000;
-            background: rgba(6, 9, 13, 0.92);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 14px 28px;
-            min-height: 76px;
-        }
-
-        .header-logo-group {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            text-decoration: none;
-        }
-        .header-logo img {
-            height: 44px;
-            width: auto;
-            filter: drop-shadow(0 0 10px rgba(0, 255, 102, 0.4));
-        }
-        .logo-text-wrap {
-            display: flex;
-            flex-direction: column;
-            line-height: 1.15;
-        }
-        .logo-text {
-            font-family: var(--font-display);
-            font-size: 20px;
-            font-weight: 900;
-            letter-spacing: -0.5px;
-            color: #fff;
-            text-transform: uppercase;
-        }
-        .logo-text span {
-            color: var(--primary);
-            text-shadow: 0 0 12px rgba(0, 255, 102, 0.4);
-        }
-        .logo-subtag {
-            font-size: 9.5px;
-            font-weight: 700;
-            color: var(--text-muted);
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-        }
-
-        .header-right {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        .live-status-pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background: rgba(0, 255, 102, 0.08);
-            border: 1px solid rgba(0, 255, 102, 0.25);
-            color: var(--primary);
-            padding: 8px 16px;
-            border-radius: 100px;
-            font-size: 11.5px;
-            font-weight: 800;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
-        .live-status-pill .dot {
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background: var(--primary);
-            box-shadow: 0 0 8px var(--primary);
-            animation: pulseGlow 1.5s infinite;
-        }
-        @keyframes pulseGlow {
-            0% { transform: scale(0.9); opacity: 0.7; }
-            50% { transform: scale(1.3); opacity: 1; }
-            100% { transform: scale(0.9); opacity: 0.7; }
-        }
-
-        .shop-link {
-            background: linear-gradient(135deg, #00ff66 0%, #00bb44 100%);
-            color: #040608;
-            padding: 10px 22px;
-            border-radius: 100px;
-            text-decoration: none;
-            font-weight: 900;
-            font-size: 13px;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            box-shadow: none !important;
-            transform: none !important;
-            transition: background-color 0.2s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            white-space: nowrap;
-        }
-        .shop-link:hover {
-            transform: none !important;
-            box-shadow: none !important;
-            background: linear-gradient(135deg, #26ff7b 0%, #00d64e 100%);
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 99990;
+            display: none;
         }
 
         .back-nav-bar {
@@ -255,20 +162,6 @@
         }
 
         @media (max-width: 768px) { 
-            header { 
-                padding: 10px 14px; 
-                min-height: 60px;
-            }
-            .header-logo img { height: 34px; }
-            .logo-text { font-size: 16px; }
-            .logo-subtag { font-size: 8px; }
-            .live-status-pill { display: none; }
-            .shop-link {
-                padding: 8px 14px;
-                font-size: 11.5px;
-                gap: 4px;
-                white-space: nowrap;
-            }
             .back-btn {
                 padding: 8px 14px;
                 font-size: 12px;
@@ -278,255 +171,236 @@
         /* WHATSAPP FLOATING BUTTON & POPUP MESSAGE BUBBLE */
         .whatsapp-floating-wrap {
             position: fixed;
-            bottom: 25px;
-            right: 22px;
-            z-index: 999999 !important;
+            bottom: 24px;
+            right: 24px;
+            z-index: 9999;
             display: flex;
             align-items: center;
-            flex-direction: row-reverse;
             gap: 12px;
-            pointer-events: auto;
         }
         .whatsapp-float-btn {
-            width: 56px;
-            height: 56px;
-            min-width: 56px;
-            background: #25D366;
+            width: 58px;
+            height: 58px;
             border-radius: 50%;
+            background: #25d366;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-            text-decoration: none;
+            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
             cursor: pointer;
-            transition: transform 0.2s ease;
+            text-decoration: none;
         }
         .whatsapp-float-btn:hover {
-            transform: scale(1.08);
+            transform: scale(1.1) rotate(6deg);
+            background: #20ba59;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.6);
         }
         .whatsapp-float-btn svg {
-            width: 38px;
-            height: 38px;
-            fill: #ffffff;
+            width: 32px;
+            height: 32px;
+            fill: #fff;
         }
-
-        /* Continuous 8-Second Loop Animation */
         .whatsapp-message-bubble {
-            background: #ffffff !important;
-            color: #000000 !important;
-            padding: 9px 18px !important;
-            border-radius: 100px !important;
-            font-size: 14px !important;
-            font-weight: 800 !important;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+            background: #111b21;
+            color: #e9edef;
+            padding: 10px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            pointer-events: none;
             position: relative;
-            white-space: nowrap !important;
-            user-select: none;
-            pointer-events: auto;
-            animation: waBubbleCycle 8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
-            transform-origin: right center;
         }
         .whatsapp-message-bubble::after {
             content: '';
             position: absolute;
-            right: -8px;
-            bottom: 12px;
-            width: 0;
-            height: 0;
+            right: -6px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-width: 6px 0 6px 6px;
             border-style: solid;
-            border-width: 0 0 10px 10px;
-            border-color: transparent transparent transparent #ffffff;
-            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.08));
+            border-color: transparent transparent transparent #111b21;
+        }
+        .whatsapp-message-bubble.show {
+            opacity: 1;
+            transform: translateX(0);
         }
 
-        /* 8s Keyframes: 0-6% (Pop In), 6-45% (Visible ~3.5s), 45-52% (Fade Out), 52-100% (Hidden ~4s) */
-        @keyframes waBubbleCycle {
-            0% {
-                opacity: 0;
-                transform: scale(0.7) translateX(12px);
-            }
-            6%, 45% {
-                opacity: 1;
-                transform: scale(1) translateX(0);
-            }
-            52%, 100% {
-                opacity: 0;
-                transform: scale(0.7) translateX(12px);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .whatsapp-floating-wrap {
-                bottom: 18px;
-                right: 16px;
-                gap: 8px;
-            }
-            .whatsapp-float-btn {
-                width: 48px;
-                height: 48px;
-                min-width: 48px;
-            }
-            .whatsapp-float-btn svg {
-                width: 32px;
-                height: 32px;
-            }
-            .whatsapp-message-bubble {
-                font-size: 12.5px !important;
-                padding: 7px 14px !important;
-            }
-        }
-
+        /* DETAILS PAGE MAIN CONTAINER */
         .details-wrapper {
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 30px 18px 80px;
+            max-width: 900px;
+            margin: 30px auto 60px;
+            padding: 0 20px;
             position: relative;
             z-index: 1;
         }
 
         .details-hero {
             text-align: center;
-            padding: 20px 0 30px;
-        }
-        .game-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(0, 255, 102, 0.08);
-            border: 1px solid rgba(0, 255, 102, 0.3);
-            padding: 6px 14px;
-            border-radius: 100px;
-            color: var(--primary);
-            font-size: 11px;
-            font-weight: 800;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            margin-bottom: 15px;
+            padding: 30px 20px 40px;
+            background: linear-gradient(180deg, rgba(13, 19, 27, 0.9) 0%, rgba(6, 9, 13, 0.95) 100%);
+            border: 1px solid var(--border-card);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
         }
         .details-hero img {
-            max-width: 130px;
-            filter: drop-shadow(0 8px 20px rgba(0, 255, 102, 0.3));
+            width: 140px;
+            height: 140px;
+            object-fit: contain;
+            filter: none !important;
             margin-bottom: 15px;
         }
         .details-hero h1 {
             font-family: var(--font-display);
-            font-size: clamp(24px, 5.5vw, 38px);
+            font-size: 32px;
             font-weight: 900;
-            text-transform: uppercase;
             letter-spacing: -0.5px;
-            line-height: 1.15;
             margin-bottom: 10px;
+            line-height: 1.2;
+            text-shadow: none !important;
         }
         .details-hero h1 span {
-            background: linear-gradient(135deg, #00ff66 0%, #00f0ff 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: var(--primary);
+            text-shadow: none !important;
+        }
+        .details-hero .game-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(0, 255, 102, 0.1);
+            border: 1px solid rgba(0, 255, 102, 0.3);
+            color: var(--primary);
+            padding: 5px 14px;
+            border-radius: 100px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
         }
 
         .content-card {
             background: var(--bg-card);
-            backdrop-filter: blur(14px);
             border: 1px solid var(--border-card);
-            border-radius: 18px;
-            padding: 24px 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
         }
         .content-card h2 {
             font-family: var(--font-display);
-            font-size: 18px;
-            color: var(--primary);
-            margin-bottom: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            font-size: 22px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 18px;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            padding-bottom: 12px;
         }
         .content-card h3 {
-            font-size: 15px;
-            color: #fff;
-            margin: 16px 0 8px;
+            font-size: 17px;
             font-weight: 700;
+            color: var(--primary);
+            margin: 20px 0 10px;
         }
         .content-card p {
             color: #c9d1d9;
-            font-size: 14px;
+            font-size: 14.5px;
             line-height: 1.7;
-            margin-bottom: 12px;
+            margin-bottom: 16px;
         }
         .content-card ul, .content-card ol {
-            padding-left: 20px;
-            margin-bottom: 14px;
             color: #c9d1d9;
-            font-size: 14px;
-            line-height: 1.8;
+            font-size: 14.5px;
+            line-height: 1.7;
+            padding-left: 24px;
+            margin-bottom: 16px;
         }
-        .content-card li { margin-bottom: 6px; }
-        .content-card strong { color: #fff; }
+        .content-card li {
+            margin-bottom: 10px;
+        }
+        .content-card li strong {
+            color: #fff;
+        }
 
         .feature-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 12px;
-            margin-top: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
         }
         .feature-item {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 18px;
             border-radius: 12px;
-            padding: 14px;
+            border-left: 3px solid var(--primary);
         }
         .feature-item h4 {
-            color: var(--accent-cyan);
-            font-size: 13px;
-            font-weight: 800;
-            margin-bottom: 5px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
         .feature-item p {
-            font-size: 12px;
+            font-size: 13px;
             color: var(--text-muted);
             line-height: 1.5;
-            margin: 0;
+            margin-bottom: 0;
         }
 
         .cta-box {
             text-align: center;
-            background: linear-gradient(180deg, rgba(0, 255, 102, 0.1) 0%, rgba(13, 19, 27, 0.95) 100%);
-            border: 1px solid rgba(0, 255, 102, 0.4);
-            border-radius: 20px;
-            padding: 30px 20px;
-            margin-top: 30px;
+            background: linear-gradient(135deg, rgba(0, 255, 102, 0.08) 0%, rgba(0, 240, 255, 0.05) 100%);
+            border: 1px solid rgba(0, 255, 102, 0.25);
+            border-radius: 16px;
+            padding: 35px 25px;
+            margin-top: 35px;
         }
         .cta-box h3 {
             font-family: var(--font-display);
-            font-size: 20px;
-            color: #fff;
+            font-size: 24px;
             font-weight: 900;
-            text-transform: uppercase;
-            margin-bottom: 8px;
+            color: #fff;
+            margin-bottom: 10px;
         }
         .cta-box p {
             color: var(--text-muted);
-            font-size: 13px;
-            margin-bottom: 20px;
+            font-size: 14px;
+            margin-bottom: 22px;
         }
         .cta-buttons {
             display: flex;
-            gap: 12px;
+            align-items: center;
             justify-content: center;
+            gap: 14px;
             flex-wrap: wrap;
         }
         .cta-btn-main {
-            background: linear-gradient(135deg, var(--primary) 0%, #00cc44 100%);
-            color: #000;
+            background: linear-gradient(135deg, #00ff66 0%, #00bb44 100%);
+            color: #040608;
+            padding: 13px 28px;
+            border-radius: 100px;
+            font-weight: 800;
+            font-size: 14px;
             text-decoration: none;
-            padding: 14px 28px;
-            border-radius: 12px;
-            font-weight: 900;
-            font-size: 13px;
             text-transform: uppercase;
+            letter-spacing: 0.5px;
             box-shadow: none !important;
             transform: none !important;
             transition: background-color 0.2s ease;
@@ -534,17 +408,18 @@
         .cta-btn-main:hover {
             box-shadow: none !important;
             transform: none !important;
-            background: #00e65c;
+            background: linear-gradient(135deg, #26ff7b 0%, #00d64e 100%);
         }
         .cta-btn-bot {
-            background: linear-gradient(135deg, #0088cc 0%, #005588 100%);
+            background: #0088cc;
             color: #fff;
+            padding: 13px 28px;
+            border-radius: 100px;
+            font-weight: 800;
+            font-size: 14px;
             text-decoration: none;
-            padding: 14px 24px;
-            border-radius: 12px;
-            font-weight: 900;
-            font-size: 13px;
             text-transform: uppercase;
+            letter-spacing: 0.5px;
             box-shadow: none !important;
             transform: none !important;
             transition: background-color 0.2s ease;
@@ -558,6 +433,8 @@
 </head>
 <body>
 
+    <div id="overlay" onclick="closeAllModals()"></div>
+
     <!-- GLOBAL UNIFIED DYNAMIC HEADER -->
     @include('partials.header')
 
@@ -569,15 +446,15 @@
 
         @if($gameKey === 'carrom')
             <div class="details-hero">
-                <div class="game-badge">🎯 Carrom Pool Precision Tool</div>
-                <div><img src="{{ asset('snake-engine-carrom-pool.png') }}" alt="Snake Engine Carrom Pool Auto Play Precision Aim Tool" width="180" height="180" fetchpriority="high"></div>
-                <h1>SNAKE ENGINE <span>CARROM POOL</span></h1>
-                <p style="color:var(--text-muted); font-size:13px; text-transform:uppercase; letter-spacing:1px;">Complete Auto Play, Aim Trajectory &amp; Anti-Ban Documentation</p>
+                <div class="game-badge">⚡ #1 Auto Play Carrom Pool &bull; Mod APK Guide</div>
+                <div><img src="{{ asset('snake-engine-carrom-pool.png') }}" alt="Carrom Pool Auto Play Precision Aim Tool" width="180" height="180" fetchpriority="high"></div>
+                <h1>CARROM POOL <span>AUTO PLAY</span></h1>
+                <p style="color:var(--text-muted); font-size:13px; text-transform:uppercase; letter-spacing:1px;">Complete Auto Play Carrom Pool, Mod APK &amp; Anti-Ban Documentation</p>
             </div>
 
             <div class="content-card">
-                <h2>🎯 What is Snake Carrom Pool Auto Play?</h2>
-                <p><strong>Snake Engine Carrom Pool</strong> is a next-generation real-time trajectory calculation tool that gives players 100% precision board clearance capability. Built with advanced geometric raycasting and memory algorithms, it projects the exact path of the striker, target puck, and rebound angles from every pocket.</p>
+                <h2>🎯 What is Carrom Pool Auto Play &amp; Auto Play Carrom Pool?</h2>
+                <p><strong>Carrom Pool Auto Play</strong> is a next-generation real-time trajectory calculation tool that gives players 100% precision board clearance capability. Built with advanced geometric raycasting and memory algorithms, it projects the exact path of the striker, target puck, and rebound angles from every pocket.</p>
                 <div class="feature-grid">
                     <div class="feature-item">
                         <h4>⚡ Real-Time Raycasting</h4>
@@ -599,11 +476,11 @@
             </div>
 
             <div class="content-card">
-                <h2>📖 How to Install &amp; Activate Snake Carrom Pool</h2>
+                <h2>📖 How to Install &amp; Activate Carrom Pool Auto Play</h2>
                 <ol>
-                    <li><strong>Download Supported APK:</strong> Download the verified Carrom Pool APK and Snake Hack tool from our official portal.</li>
+                    <li><strong>Download Supported APK:</strong> Download the verified Carrom Pool APK and Auto Play tool from our official portal.</li>
                     <li><strong>Purchase License Key:</strong> Choose your duration (3 Days, 10 Days, 30 Days, or 90 Days) and receive an instant VIP key.</li>
-                    <li><strong>Open Snake Engine:</strong> Enter your activation key and grant Floating Window overlay permissions.</li>
+                    <li><strong>Open Auto Play Tool:</strong> Enter your activation key and grant Floating Window overlay permissions.</li>
                     <li><strong>Launch Carrom Pool:</strong> Start your match. Trajectory guidance lines will automatically lock onto pucks and pockets in real-time.</li>
                 </ol>
             </div>
@@ -659,7 +536,7 @@
                 </ol>
             </div>
 
-        @else
+        @elseif($gameKey === 'soccer')
             <div class="details-hero">
                 <div class="game-badge">⚽ Soccer Stars Goal Alignment</div>
                 <div><img src="{{ asset('snake-engine-soccer-stars.png') }}" alt="Snake Engine Soccer Stars Aim Predictor &amp; Vector Alignment Tool" width="180" height="180" fetchpriority="high"></div>
@@ -698,6 +575,98 @@
                     <li><strong>Select Soccer Stars:</strong> Activate Goal Vectors and Wall Rebound Tracking.</li>
                 </ol>
             </div>
+
+        @elseif($gameKey === 'about')
+            <div class="details-hero">
+                <div class="game-badge">⚡ OFFICIAL SNAKE ENGINE DOCUMENTATION &amp; ABOUT GUIDE</div>
+                <div><img src="{{ asset('snake-engine-logo.png') }}" alt="About Official Snake Engine System" width="160" height="160" fetchpriority="high"></div>
+                <h1>ABOUT SNAKE ENGINE &bull; <span>OFFICIAL SYSTEM CORE</span></h1>
+                <p style="color:var(--text-muted); font-size:13px; text-transform:uppercase; letter-spacing:1px;">Complete Guide to Geometric Raycasting Overlay, Anti-Ban Engine, Emulator Setup &amp; Official Shabab Gaming Keys</p>
+            </div>
+
+            <div class="content-card">
+                <h2>⚡ The Evolution of Game Automation: Snake Engine Core</h2>
+                <p><strong>Snake Engine</strong> is the world's most advanced, mathematically calibrated real-time overlay assistant specifically built for competitive board and precision trajectory games like <strong>Carrom Pool, 8 Ball Pool, and Soccer Stars</strong>.</p>
+                <p>Engineered from the ground up to operate completely isolated from game binaries, Snake Engine uses screen coordinate vector calculation without altering internal game code, ensuring true <strong>100% Anti-Ban security</strong>.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>🎯 Snake Carrom Pool</h4>
+                        <p>Real-time striker angle calculation, pocket rebound reflections, and automatic power level guide for instant clearance.</p>
+                        <a href="{{ url('/details/carrom') }}" style="color:#00ff66; font-weight:700; text-decoration:none; display:inline-block; margin-top:6px;">View Carrom Guide →</a>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🎱 Snake 8 Ball Pool</h4>
+                        <p>Infinite multi-line cue guides, 3-cushion bank shot trajectories, and cue ball resting location prediction based on applied spin.</p>
+                        <a href="{{ url('/details/8bp') }}" style="color:#00ff66; font-weight:700; text-decoration:none; display:inline-block; margin-top:6px;">View 8BP Guide →</a>
+                    </div>
+                    <div class="feature-item">
+                        <h4>⚽ Snake Soccer Stars</h4>
+                        <p>Goal alignment vector tracking, obstacle puck deflection mapping, and high-precision rebound calculations.</p>
+                        <a href="{{ url('/details/soccer') }}" style="color:#00ff66; font-weight:700; text-decoration:none; display:inline-block; margin-top:6px;">View Soccer Guide →</a>
+                    </div>
+                    <div class="feature-item">
+                        <h4>💻 PC Emulator Engine</h4>
+                        <p>Native optimization for LDPlayer 9, BlueStacks 5, and Nox Player running at smooth 120 FPS without lag.</p>
+                        <a href="{{ url('/details/pc-setup') }}" style="color:#00ff66; font-weight:700; text-decoration:none; display:inline-block; margin-top:6px;">View PC Setup Guide →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h2>📖 Complete Step-by-Step Installation &amp; Setup Guide</h2>
+                <ol>
+                    <li><strong>Purchase Official VIP Key:</strong> Choose your duration plan (3 Days, 10 Days, 30 Days, or 90 Days) from our official store.</li>
+                    <li><strong>Download Supported APK:</strong> Download verified APK files directly from our verified portal.</li>
+                    <li><strong>Grant Display Permission:</strong> On Android or Emulator, enable <em>"Display Over Other Apps"</em> permission for Snake Engine.</li>
+                    <li><strong>Login with Key:</strong> Paste your activated Snake Key into the login box and click <strong>LOGIN</strong>.</li>
+                    <li><strong>Launch Your Game:</strong> Open Carrom Pool, 8BP, or Soccer Stars. The automated overlay will lock onto game coordinates automatically!</li>
+                </ol>
+            </div>
+
+            <div class="content-card">
+                <h2>👑 Official SHABAB GAMING Verification &amp; Trust</h2>
+                <p><strong>SHABAB GAMING</strong> is the verified, gold-standard provider for the Snake automation ecosystem, trusted by over <strong>25,000+ satisfied competitive gamers</strong> across India and worldwide.</p>
+                <p>Always ensure you are buying from the official portal (this website) or direct Shabab Gaming channels to avoid fake clones, expired trial keys, and unsafe malware mods.</p>
+            </div>
+
+        @elseif($gameKey === 'pc-setup')
+            <div class="details-hero">
+                <div class="game-badge">💻 SNAKE ENGINE PC SETUP GUIDE</div>
+                <div><img src="{{ asset('snake-engine-logo.png') }}" alt="Setup Snake Engine on PC LDPlayer BlueStacks" width="160" height="160" fetchpriority="high"></div>
+                <h1>SNAKE ENGINE <span>PC EMULATOR SETUP</span></h1>
+                <p style="color:var(--text-muted); font-size:13px; text-transform:uppercase; letter-spacing:1px;">Complete Tutorial for LDPlayer 9, BlueStacks 5 &amp; Nox (No Root Required)</p>
+            </div>
+
+            <div class="content-card">
+                <h2>⚡ Supported Emulators &amp; System Requirements</h2>
+                <p><strong>Snake Engine</strong> runs flawlessly on all modern Windows PC Android emulators with zero lag and high-refresh-rate 120 FPS output. You do <strong>NOT</strong> need root permissions.</p>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>🥇 LDPlayer 9 (Recommended)</h4>
+                        <p>Best performance, fastest raycasting updates, and native 120 FPS rendering mode.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🥈 BlueStacks 5 (Pie 64-bit)</h4>
+                        <p>Excellent graphical stability, customizable RAM allocation and high DPI precision.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🥉 Nox Player 7</h4>
+                        <p>Lightweight memory footprint, perfect for low-spec dual-core laptops and PCs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h2>📖 Step-by-Step PC Emulator Installation</h2>
+                <ol>
+                    <li>Download &amp; install <strong>LDPlayer 9</strong> or <strong>BlueStacks 5 (64-bit)</strong> on your PC.</li>
+                    <li>Inside emulator settings, allocate at least <strong>4 CPU cores &amp; 4GB RAM</strong>.</li>
+                    <li>Download the Snake Engine APK inside the emulator and install it.</li>
+                    <li>Launch Snake Engine, paste your VIP key, and click Login.</li>
+                    <li>Launch your game (Carrom Pool, 8BP, or Soccer Stars) and dominate every match!</li>
+                </ol>
+            </div>
         @endif
 
         <div class="cta-box">
@@ -705,7 +674,7 @@
             <p>Get instant VIP key activation within 2 minutes. 100% Safe, Verified &amp; Trusted by 25,000+ Players.</p>
             <div class="cta-buttons">
                 <a href="{{ url('/') }}#store" class="cta-btn-main">🛒 View Plans &amp; Buy Now</a>
-                <a href="https://wa.me/917667363785?text=Hello%20Bro%2C%20I%20need%20Snake%20Engine%20Auto%20Play%20tool.%20What%20is%20the%20process%3F" target="_blank" class="cta-btn-bot">💬 Buy via WhatsApp</a>
+                <a href="https://t.me/shababgaming" target="_blank" rel="noopener noreferrer" class="cta-btn-bot">✈️ Buy via Telegram</a>
             </div>
         </div>
 
@@ -722,6 +691,13 @@
     </div>
 
     <script>
+        function closeAllModals() {
+            const nav = document.getElementById("mySidenav");
+            if (nav) nav.classList.remove("open");
+            const overlay = document.getElementById("overlay");
+            if (overlay) overlay.style.display = "none";
+        }
+
         // WhatsApp Message Bubble Popup Loop (Triggers every 5 seconds)
         (function initWhatsAppBubble() {
             const bubble = document.getElementById('waSpeechBubble');
